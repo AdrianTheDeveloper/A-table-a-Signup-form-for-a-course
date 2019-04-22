@@ -1,0 +1,41 @@
+h1{
+	color: black;
+}
+
+input[type="text"]
+{
+	font-family: Verdana;
+    font-size:2100px;
+}
+
+body{
+	background-color: #f4f4f4;
+
+	font-family:Verdana;
+	font-size: 16px;
+	/* font-weight: bold /normal/400px; */
+	/*font: normal 14px Arial; */
+	/* line-height: 1.6em ; Adds more space inbetween the words, can also use pixels for eg 10px */
+}
+
+.table-1{
+	width: 1000px;
+	margin: auto;
+}
+.clr-1{
+
+	background-color:#687291;
+}
+.clr-2{
+	background-color: #eeeff2;
+}
+
+.Stitle{
+	 text-align: left;
+}
+
+.clr-3{
+	text-align: center;
+}
+
+

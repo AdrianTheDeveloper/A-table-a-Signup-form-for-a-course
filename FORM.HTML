@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Creation Form</title>
+	<script src="Styles/p2.js"></script>
+	<link rel="stylesheet" type="text/css" href="Styles/form.css">
+</head>
+</head>
+<body>
+	<h1>
+
+<span class="cont">COMP2190 FORM</span>
+	</h1>
+
+
+<form method="post" action="Form.php" name="Course Creation Form" onsubmit="return ValidFunc()" >
+	Course Code<input type="text" =name="Ccode"  maxlength="4" value="" onkeypress="isInputNumber(event)"  /> 
+	<br/>
+	<br/>
+	<br/>
+
+
+	Course Title<input type="text" =name="Ctitle" size="40" maxlength="40" value=""  /> 
+	<br/>
+	<br/>
+	<br/>
+
+	Course Discipline<input type="text" =name="Cdisc" size="10" maxlength="4" value="" onkeypress="return onlyAlphabets(event,this);"  /> 
+	<br/>
+	<br/>
+	<br/>
+
+
+	Level<input type="text" =name="level" size="1" maxlength="1" value="" /> 
+	<br/>
+	<br/>
+	<br/>
+
+	Credits<input type="text" =name="credits" size="1" maxlength="1" value="" onsubmit="return ValidFunc()"/> 
+	<br/>
+	<br/>
+	<br/>
+
+	Semester<input type="text" name="sem" size="1" maxlength="1" id="Semstr" onsubmit="return ValidFunc()"/>
+	<br/>
+	<br/>
+
+<input type="hidden" name="secField" size="100" value="c7fafc6d13ec4671a34264e319909f" id="Security" />
+	
+
+<p>Select a Person</p>
+<br>
+	<select name="Activities" > 
+
+			<option value="0"></option>
+			<option value="1"> Sara Lambert</option>
+			<option value="2"> Brad Williams</option>
+			<option value="3"> Rosalyn Brown</option>
+			<option value="4"> Emil Powell</option>
+			<option value="5"> Rene Picard</option>
+			<option value="6"> Larry Feilds</option>
+
+	</select>
+	<br>
+<br>
+
+<input type="submit" value="Submit"/>
+
+</form>
+<script >
+	function checkCcode(a) {
+		// body...
+	}
+</script>
+
+
+
+
+
+
+
+

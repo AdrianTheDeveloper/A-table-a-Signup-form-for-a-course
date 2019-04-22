@@ -1,0 +1,50 @@
+
+body{
+	background-color: #f4f4f4;
+
+	font-family:Verdana;
+	font-size: 14px;
+	Total 
+	/* font-weight: bold /normal/400px; */
+	/*font: normal 14px Arial; */
+	/* line-height: 1.6em ; Adds more space inbetween the words, can also use pixels for eg 10px */
+	
+
+
+
+
+
+}
+.title{
+	 text-align: left;
+}
+
+.table-1{
+	border-top: 10px ;
+	border-bottom:10px;
+	border-left :10px;
+	border-right:10px;
+	border: 10px #d0d0ff solid;
+	padding: 20px;
+
+	/*border-color: blue;*/
+	margin: 20px ;
+	width: 700px;
+	/*margin: auto;*/
+}
+}
+
+.clr-2{
+	background-color: #eeeff2;
+}
+.clr-3{
+
+	text-align: center;
+}
+.fmat{
+	margin: 5px 10px 5px 10px;
+}
+.total{
+	margin-top: 2px black solid;
+}
+

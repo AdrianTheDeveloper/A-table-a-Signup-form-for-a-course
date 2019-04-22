@@ -1,0 +1,43 @@
+h1{
+	font:normal 25px Verdana;
+	/*font-family: Verdana ;*/
+	color: black;
+}
+p{
+font:normal 18px Verdana;
+}
+
+input[type="text"]
+{
+	font-family: Arial;
+    font-size:19px;
+}
+
+select{
+	font-family: Arial;
+    font-size:19px;
+} 
+
+body{
+
+	background-color: #f4f4f4;
+	border-top: 10px ;
+	border-bottom:10px;
+	border-left :10px;
+	border-right:10px;
+	border: 10px #C0C0C0 solid;
+	padding: 20px;
+
+	/*border-color: blue;*/
+	margin: 20px ;
+	width: 1250px;
+
+}
+
+form{
+	font:normal 17px Verdana;
+
+}
+
+
+	
